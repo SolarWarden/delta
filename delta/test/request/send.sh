@@ -1,1 +1,7 @@
-curl -vX POST http://localhost:3000/login/ -d @$1 --header "Content-Type: application/json" --header "authorization: myauthkey"
+curl -vX POST http://localhost:3000/login/ -d @$1 \
+-H "Content-Type: application/json" \
+-H "authorization: myauthkey" \
+-H "cid: 12345" \
+-H "pn: wip" \
+-H "pv: 1.0.0" \
+-H "rid: 987654321" 

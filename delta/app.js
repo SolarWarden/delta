@@ -33,5 +33,5 @@ app.get('/users', user.list);
 app.post('/login', login.list);
 
 http.createServer(app).listen(app.get('port'), function(){
-  console.log('Express server listening on port ' + app.get('port'));
+  console.log('Moses is listening on port ' + app.get('port'));
 });
