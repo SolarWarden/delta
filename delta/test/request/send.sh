@@ -1,4 +1,4 @@
-curl -vX POST http://localhost:3000/login/ -d @$1 \
+curl -vX POST http://localhost:3000/feed/ -d @$1 \
 -H "Content-Type: application/json" \
 -H "authorization: myauthkey" \
 -H "cid: 12345" \
